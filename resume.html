@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yeruru Asrar Ahmed - Resume</title>
+    <style>
+      :root {
+        --ink: #18232a;
+        --muted: #56666d;
+        --line: #d7e0e3;
+        --accent: #0d5360;
+        --gold: #a76d12;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10.7pt;
+        line-height: 1.42;
+        background: #ffffff;
+      }
+
+      .page {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto;
+        padding: 15mm 15mm 13mm;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 18px;
+        padding-bottom: 14px;
+        border-bottom: 2px solid var(--accent);
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 25pt;
+        line-height: 1;
+        letter-spacing: 0;
+      }
+
+      .role {
+        margin-top: 6px;
+        color: var(--accent);
+        font-size: 12.3pt;
+        font-weight: 700;
+      }
+
+      .contact {
+        display: grid;
+        gap: 3px;
+        color: var(--muted);
+        font-size: 9.4pt;
+        text-align: right;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      section {
+        padding-top: 12px;
+      }
+
+      h2 {
+        margin-bottom: 7px;
+        color: var(--accent);
+        font-size: 11.2pt;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+      }
+
+      h3 {
+        font-size: 10.9pt;
+      }
+
+      .summary {
+        color: var(--muted);
+      }
+
+      .two-col {
+        display: grid;
+        grid-template-columns: 1.7fr 1fr;
+        gap: 18px;
+      }
+
+      .entry {
+        padding-top: 8px;
+        margin-top: 8px;
+        border-top: 1px solid var(--line);
+      }
+
+      .entry:first-of-type {
+        padding-top: 0;
+        margin-top: 0;
+        border-top: 0;
+      }
+
+      .entry-head {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 10px;
+        align-items: baseline;
+      }
+
+      .where {
+        color: var(--muted);
+        font-weight: 700;
+      }
+
+      .when {
+        color: var(--gold);
+        font-size: 9.4pt;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+
+      ul {
+        padding-left: 16px;
+        margin: 5px 0 0;
+      }
+
+      li {
+        margin: 2px 0;
+      }
+
+      .compact-list {
+        display: grid;
+        gap: 4px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+
+      .pill-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+
+      .pill-list li {
+        padding: 3px 7px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--accent);
+        font-size: 9.2pt;
+        font-weight: 700;
+      }
+
+      .side-card {
+        padding-top: 8px;
+        margin-top: 8px;
+        border-top: 1px solid var(--line);
+      }
+
+      .side-card:first-child {
+        padding-top: 0;
+        margin-top: 0;
+        border-top: 0;
+      }
+
+      @page {
+        size: A4;
+        margin: 0;
+      }
+
+      @media print {
+        body {
+          print-color-adjust: exact;
+          -webkit-print-color-adjust: exact;
+        }
+
+        .page {
+          margin: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <div>
+          <h1>Yeruru Asrar Ahmed</h1>
+          <p class="role">Lead Engineer - Generative AI and Computer Vision</p>
+        </div>
+        <div class="contact">
+          <span>Bengaluru, Karnataka, India</span>
+          <a href="mailto:asrarabrar21@gmail.com">asrarabrar21@gmail.com</a>
+          <a href="mailto:asrar@cse.iitm.ac.in">asrar@cse.iitm.ac.in</a>
+          <a href="https://www.linkedin.com/in/yeruru-asrar-ahmed-63670113b/">linkedin.com/in/yeruru-asrar-ahmed-63670113b</a>
+          <a href="https://github.com/asrarabrar21">github.com/asrarabrar21</a>
+          <a href="https://scholar.google.com/citations?user=YV2QFccAAAAJ&hl=en">Google Scholar</a>
+        </div>
+      </header>
+
+      <section>
+        <h2>Professional Summary</h2>
+        <p class="summary">
+          Lead Engineer at Samsung Research Institute Bangalore working on AI for personalization and computer vision.
+          Ph.D. from IIT Madras with research in text-to-image generation, representation learning, and segmentation.
+          Interested in practical AI systems that connect research ideas with reliable product experiences.
+        </p>
+      </section>
+
+      <section class="two-col">
+        <div>
+          <h2>Experience</h2>
+          <article class="entry">
+            <div class="entry-head">
+              <div>
+                <h3>Lead Engineer</h3>
+                <p class="where">Samsung Research Institute Bangalore</p>
+              </div>
+              <span class="when">May 2025 - Present</span>
+            </div>
+            <ul>
+              <li>Working on AI features for Samsung devices, including personalization, action prediction, and privacy-aware learning.</li>
+              <li>Built and trained an action prediction model for mobile personalization workflows.</li>
+              <li>Studied ways to personalize image models across devices while handling differences between users.</li>
+            </ul>
+          </article>
+
+          <article class="entry">
+            <div class="entry-head">
+              <div>
+                <h3>AI Scientist</h3>
+                <p class="where">8bit.ai / CtrlS-Cloud4C</p>
+              </div>
+              <span class="when">Dec 2024 - Mar 2025</span>
+            </div>
+            <ul>
+              <li>Built AI and computer vision tools for enterprise analytics, safety monitoring, and compliance tracking.</li>
+              <li>Collaborated with manufacturing and finance clients on deployable AI solutions.</li>
+            </ul>
+          </article>
+
+          <article class="entry">
+            <div class="entry-head">
+              <div>
+                <h3>Research Intern</h3>
+                <p class="where">Sony Research India</p>
+              </div>
+              <span class="when">Nov 2023 - Aug 2024</span>
+            </div>
+            <ul>
+              <li>Researched faster text-to-video generation while keeping visual quality and text alignment strong.</li>
+              <li>Used efficient training methods and caption refinement to improve video generation workflows.</li>
+            </ul>
+          </article>
+
+          <section>
+            <h2>Selected Publications</h2>
+            <ul>
+              <li>End-to-end Training for Text-to-Image Synthesis using Dual-Text Embeddings, TMLR 2025.</li>
+              <li>Unsupervised Co-generation of Foreground-Background Segmentation from Text-to-Image Synthesis, WACV 2024; extended version in CVIU 2024.</li>
+              <li>Self-Distillation on Conditional Spatial Activation Maps for FG-BG Segmentation, CVPR Workshop 2024.</li>
+              <li>Breast Cancer Segmentation using UNet and Global Convolutional Networks, ICPR 2024.</li>
+            </ul>
+          </section>
+        </div>
+
+        <aside>
+          <div class="side-card">
+            <h2>Education</h2>
+            <ul class="compact-list">
+              <li><strong>IIT Madras</strong><br />Ph.D. Computer Science and Engineering, 2018 - 2025<br />CGPA: 8.5/10</li>
+              <li><strong>NIT Hamirpur</strong><br />M.Tech Computer Science, 2016 - 2018<br />CGPA: 9.42/10</li>
+              <li><strong>GITAM University</strong><br />B.Tech Computer Science, 2012 - 2016<br />CGPA: 8.5/10</li>
+            </ul>
+          </div>
+
+          <div class="side-card">
+            <h2>Skills</h2>
+            <ul class="pill-list">
+              <li>Python</li>
+              <li>C/C++</li>
+              <li>PyTorch</li>
+              <li>TensorFlow</li>
+              <li>OpenCV</li>
+              <li>HuggingFace</li>
+              <li>Generative AI</li>
+              <li>Computer Vision</li>
+              <li>Edge AI</li>
+            </ul>
+          </div>
+
+          <div class="side-card">
+            <h2>Awards</h2>
+            <ul>
+              <li>Samsung New Vallery Project Award.</li>
+              <li>Samsung Part of Team Awesome Award.</li>
+              <li>Samsung AI Expert - Workera.</li>
+              <li>Star Teaching Assistant Award, IIT Madras.</li>
+              <li>GATE Rank 2674 (2017) and 3612 (2016).</li>
+            </ul>
+          </div>
+
+          <div class="side-card">
+            <h2>Academic Service</h2>
+            <ul>
+              <li>Reviewer for CVPR and ECCV.</li>
+              <li>Teaching Assistant at IIT Madras for Deep Learning, Pattern Recognition and Machine Learning, Operating Systems, and Computer Architecture.</li>
+              <li>Mentored 20+ undergraduate projects in computer vision and deep learning.</li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
